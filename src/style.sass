@@ -1,0 +1,264 @@
+*
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+  text-decoration: none
+  // border: 1px solid black
+.scroll
+  .side
+    transform: translate(100px,0)
+    transform: translate(100px,0)
+    opacity: 0
+  .side_anime
+    transform: translate(0,0)
+    -webkit-transform: translate(0,0)
+    opacity: 1
+.row
+  margin: 0
+  padding: 0
+body,.container-fluid
+  padding: 0
+  margin: 0
+.menuShowContainer
+  transition: 0.2s
+  position: fixed
+  z-index: 1
+  width: 0vw
+  opacity: 0
+  right: 0
+  height: 100vh
+  background-color: #fff
+  justify-content: center
+  align-items: center
+  margin: auto
+  text-align: center
+  display: flex
+  .menuShowContent
+    justify-content: center
+    align-items: center
+    margin: auto
+    display: flex
+    .menu-items
+      a
+        text-decoration: none
+        color: #000
+        li
+          list-style: none
+          margin-top: 24px
+.open
+  opacity: 1
+  position: fixed
+  height: 100vh
+  z-index: 1
+  right: 0%
+  transition: .5s
+  display: block
+  width: 35vw
+  background-color: #fff  
+  justify-content: center
+  align-items: center
+  text-align: center
+  display: flex
+.headerContainer
+  top:0
+  left: 0
+  bottom: 0
+  padding: 20px 0px
+  height: 80px
+  position: fixed
+  z-index: 1
+  align-items: center
+  justify-content: center
+  .heraderContent
+    justify-content: center
+    align-items: center
+    margin: auto
+    display: flex
+    .logoContainer
+      width: 240px
+      .logoContent
+        .logoimg
+    .menuContainer
+      cursor: pointer
+      margin: 0px 24px 0px auto
+      .menuContent
+        .menu
+          display: flex
+          justify-content: center
+          align-items: center
+          span
+            font-size: 36px
+.banner_content
+  position: relative
+  padding: 0
+  height: 100vh
+  .banner_img
+    width: 100%
+    height: 100%
+    background-image: url('https://images.unsplash.com/photo-1581287053822-fd7bf4f4bfec?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1501&q=80')
+    background-size: cover
+    background-attachment: fixed
+.aboutContent
+  position: relative
+  width: 100%
+  padding: 220px 0px 240px
+  .col-8
+    transition: 1s
+    a
+      width: 100%
+      height: 100%
+      transition: 1s
+      text-decoration: none
+      .linkTet
+        transition: 1s
+  .workText
+    h3,p
+      transition: 1s
+    p
+      transition-delay: 0.5s
+  .aboutText
+    margin: auto
+    margin-bottom: 40px
+    h1,p
+      transition: 1s
+    .button
+      transition: 1s
+      a
+        transition: 1s
+  .ExperienceContainer
+    height: 300px
+    position: relative
+    .ExperienceImg
+      transition: 1s
+      width: 100%
+      height: 100%
+      background-size: cover
+      background-image: url('https://images.unsplash.com/photo-1641630376328-300d430d8b15?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80')
+      
+.workContainer
+  padding: 0
+  background-color: #f2f5f9
+  padding: 160px 0px 160px 0px
+  .workContent
+    max-width: 1280px
+    margin: auto
+    height: 100%
+    .row
+      .workText
+        padding: 0
+        transition: 1s
+        h1
+          margin: 40px 0px
+        p
+          transition: 1s
+    .row
+      .workItemts:nth-child(even)
+        transition-delay: 0.5s
+      .workItemts
+        transition: 1s
+        padding: 0
+        position: relative
+        margin-bottom: 5%
+        width: calc(50% - 25px)
+        margin-right: 50px
+        &:nth-of-type(2n)
+          margin-right: 0 
+        a
+          width: 100%
+          height: 100%
+          text-decoration: none
+        .workImgContainer
+          max-width: 100%
+          position: relative
+          .workImg
+            width: 100%
+            overflow: hidden
+            position: relative
+            &:hover img
+                transform: scale(1.2,1.2)
+            &:hover .workBlack
+                opacity: 0.75
+                background-color: #000
+            &:hover .workBlack .blackText
+                opacity: 1
+            img
+              width: 100%
+              height: 100%
+              transition: 0.3s
+            .workBlack
+                  position: absolute
+                  top: 0
+                  left: 0
+                  width: 100%
+                  height: 100%
+                  transition: 0.3s
+                  .blackText
+                    transition: 0.3s
+                    opacity: 0
+                    position: absolute
+                    top: 50%
+                    left: 50%
+                    transform: translate(-40%,-50%)
+                    font-size: 24px
+                    text-decoration: none
+                    color: #fff
+        .workTextContainer
+            display: block
+            position: relative
+            width: 100%
+            height: 100%
+            .workTextBox
+              word-wrap: break-word
+              width: 100%
+              height: 100%
+              color: #000
+              h4
+                margin-bottom: 4px
+.footerContainer
+  background-size: cover
+  width: 100%
+  background-image: url('https://images.unsplash.com/photo-1512486130939-2c4f79935e4f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80')
+  .footerContent
+    width: 100%
+    height: 100%
+    background-color: rgba(0,0,0,0.7)
+    width: 100%
+    height: 50vh
+    display: flex
+    .footerTextContent
+      display: flex
+      justify-content: center
+      margin-right: auto
+      margin-left: auto
+      // margin: auto
+      align-items: center
+      text-align: center
+      .contentText
+        h1
+          color: #fff
+        a
+          text-decoration: none
+          color: #fff
+.Copyright
+  height: 60px
+  text-align: center
+  justify-content: center
+  align-items: center
+  margin: auto
+  display: flex
+  .CopyrightBox
+    span
+      font-weight: blod
+      
+      
+// mobile css content
+
+@media (min-width: 375px) and (max-width: 768px)
+  
+  .open
+    width: 100vw
+  .workContainer
+    .workContent
+      .row
+        .workItemts
+          width: 100%
