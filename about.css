@@ -1,14 +1,12 @@
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   text-decoration: none;
 }
 
 .scroll .side {
-  -webkit-transform: translate(100px, 0);
-          transform: translate(100px, 0);
+  transform: translate(100px, 0);
   transform: translate(100px, 0);
   opacity: 0;
 }
@@ -29,7 +27,6 @@ body, .container-fluid {
 }
 
 .menuShowContainer {
-  -webkit-transition: 0.2s;
   transition: 0.2s;
   position: fixed;
   z-index: 1;
@@ -38,28 +35,16 @@ body, .container-fluid {
   right: 0;
   height: 100vh;
   background-color: #fff;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   margin: auto;
   text-align: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 .menuShowContainer .menuShowContent {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   margin: auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 .menuShowContainer .menuShowContent .menu-items a {
@@ -77,20 +62,13 @@ body, .container-fluid {
   height: 100vh;
   z-index: 1;
   right: 0%;
-  -webkit-transition: 0.5s;
   transition: 0.5s;
   display: block;
   width: 35vw;
   background-color: #fff;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
@@ -102,23 +80,13 @@ body, .container-fluid {
   height: 80px;
   position: fixed;
   z-index: 1;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
 .headerContainer .heraderContent {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   margin: auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 .headerContainer .heraderContent .logoContainer {
@@ -129,22 +97,15 @@ body, .container-fluid {
   margin: 0px 24px 0px auto;
 }
 .headerContainer .heraderContent .menuContainer .menuContent .menu {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
 }
 .headerContainer .heraderContent .menuContainer .menuContent .menu span {
   font-size: 36px;
 }
 
 .aboutBanner_content {
-  -webkit-transition: 1s;
   transition: 1s;
   margin: 100px auto 0px auto;
   position: relative;
@@ -181,11 +142,9 @@ body, .container-fluid {
   margin-bottom: 40px;
 }
 .aboutContent .aboutText h1 {
-  -webkit-transition: 1s;
   transition: 1s;
 }
 .aboutContent .aboutText .col-10 {
-  -webkit-transition: 1s;
   transition: 1s;
   position: relative;
   display: block;
@@ -193,7 +152,6 @@ body, .container-fluid {
   margin: 60px auto 60px auto;
 }
 .aboutContent .aboutText .col-10 p {
-  -webkit-transition: 1s;
   transition: 1s;
 }
 .aboutContent .aboutText .col-10 span:nth-child(1) {
@@ -254,8 +212,7 @@ body, .container-fluid {
   overflow: hidden;
 }
 .workContainer .workContent .row .workItemts .workImgContainer .workImg:hover img {
-  -webkit-transform: scale(1.2, 1.2);
-          transform: scale(1.2, 1.2);
+  transform: scale(1.2, 1.2);
 }
 .workContainer .workContent .row .workItemts .workImgContainer .workImg:hover .workBlack {
   opacity: 0.5;
@@ -267,7 +224,6 @@ body, .container-fluid {
 .workContainer .workContent .row .workItemts .workImgContainer .workImg img {
   width: 100%;
   height: 100%;
-  -webkit-transition: 0.3s;
   transition: 0.3s;
 }
 .workContainer .workContent .row .workItemts .workImgContainer .workImg .workBlack {
@@ -276,18 +232,15 @@ body, .container-fluid {
   left: 0;
   width: 100%;
   height: 100%;
-  -webkit-transition: 0.3s;
   transition: 0.3s;
 }
 .workContainer .workContent .row .workItemts .workImgContainer .workImg .workBlack .blackText {
-  -webkit-transition: 0.3s;
   transition: 0.3s;
   opacity: 0;
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-40%, -50%);
-          transform: translate(-40%, -50%);
+  transform: translate(-40%, -50%);
 }
 .workContainer .workContent .row .workItemts .workImgContainer .workImg .workBlack .blackText a {
   text-decoration: none;
@@ -320,22 +273,14 @@ body, .container-fluid {
   background-color: rgba(0, 0, 0, 0.7);
   width: 100%;
   height: 50vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 .footerContainer .footerContent .footerTextContent {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   margin-right: auto;
   margin-left: auto;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   text-align: center;
 }
 .footerContainer .footerContent .footerTextContent .contentText h1 {
@@ -349,15 +294,9 @@ body, .container-fluid {
 .Copyright {
   height: 60px;
   text-align: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   margin: auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 .Copyright .CopyrightBox span {
