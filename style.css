@@ -7,14 +7,13 @@
 }
 
 .scroll .side {
-  -webkit-transform: translate(100px, 0);
-          transform: translate(100px, 0);
-  transform: translate(100px, 0);
+  -webkit-transform: translateX(-50px);
+          transform: translateX(-50px);
   opacity: 0;
 }
 .scroll .side_anime {
-  transform: translate(0, 0);
-  -webkit-transform: translate(0, 0);
+  -webkit-transform: translateX(0px);
+          transform: translateX(0px);
   opacity: 1;
 }
 
@@ -375,7 +374,7 @@ body, .container-fluid {
   font-weight: blod;
 }
 
-@media (min-width: 375px) and (max-width: 768px) {
+@media (min-width: 300px) and (max-width: 768px) {
   .open {
     width: 100vw;
   }
