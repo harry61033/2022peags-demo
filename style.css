@@ -1,12 +1,14 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   text-decoration: none;
 }
 
 .scroll .side {
-  transform: translate(100px, 0);
+  -webkit-transform: translate(100px, 0);
+          transform: translate(100px, 0);
   transform: translate(100px, 0);
   opacity: 0;
 }
@@ -27,6 +29,7 @@ body, .container-fluid {
 }
 
 .menuShowContainer {
+  -webkit-transition: 0.2s;
   transition: 0.2s;
   position: fixed;
   z-index: 1;
@@ -35,16 +38,28 @@ body, .container-fluid {
   right: 0;
   height: 100vh;
   background-color: #fff;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin: auto;
   text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 .menuShowContainer .menuShowContent {
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 .menuShowContainer .menuShowContent .menu-items a {
@@ -62,13 +77,20 @@ body, .container-fluid {
   height: 100vh;
   z-index: 1;
   right: 0%;
+  -webkit-transition: 0.5s;
   transition: 0.5s;
   display: block;
   width: 35vw;
   background-color: #fff;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -80,13 +102,23 @@ body, .container-fluid {
   height: 80px;
   position: fixed;
   z-index: 1;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 .headerContainer .heraderContent {
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 .headerContainer .heraderContent .logoContainer {
@@ -97,9 +129,15 @@ body, .container-fluid {
   margin: 0px 24px 0px auto;
 }
 .headerContainer .heraderContent .menuContainer .menuContent .menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .headerContainer .heraderContent .menuContainer .menuContent .menu span {
   font-size: 36px;
@@ -124,34 +162,42 @@ body, .container-fluid {
   padding: 220px 0px 240px;
 }
 .aboutContent .col-8 {
+  -webkit-transition: 1s;
   transition: 1s;
 }
 .aboutContent .col-8 a {
   width: 100%;
   height: 100%;
+  -webkit-transition: 1s;
   transition: 1s;
   text-decoration: none;
 }
 .aboutContent .col-8 a .linkTet {
+  -webkit-transition: 1s;
   transition: 1s;
 }
 .aboutContent .workText h3, .aboutContent .workText p {
+  -webkit-transition: 1s;
   transition: 1s;
 }
 .aboutContent .workText p {
-  transition-delay: 0.5s;
+  -webkit-transition-delay: 0.5s;
+          transition-delay: 0.5s;
 }
 .aboutContent .aboutText {
   margin: auto;
   margin-bottom: 40px;
 }
 .aboutContent .aboutText h1, .aboutContent .aboutText p {
+  -webkit-transition: 1s;
   transition: 1s;
 }
 .aboutContent .aboutText .button {
+  -webkit-transition: 1s;
   transition: 1s;
 }
 .aboutContent .aboutText .button a {
+  -webkit-transition: 1s;
   transition: 1s;
 }
 .aboutContent .ExperienceContainer {
@@ -159,6 +205,7 @@ body, .container-fluid {
   position: relative;
 }
 .aboutContent .ExperienceContainer .ExperienceImg {
+  -webkit-transition: 1s;
   transition: 1s;
   width: 100%;
   height: 100%;
@@ -178,18 +225,22 @@ body, .container-fluid {
 }
 .workContainer .workContent .row .workText {
   padding: 0;
+  -webkit-transition: 1s;
   transition: 1s;
 }
 .workContainer .workContent .row .workText h1 {
   margin: 40px 0px;
 }
 .workContainer .workContent .row .workText p {
+  -webkit-transition: 1s;
   transition: 1s;
 }
 .workContainer .workContent .row .workItemts:nth-child(even) {
-  transition-delay: 0.5s;
+  -webkit-transition-delay: 0.5s;
+          transition-delay: 0.5s;
 }
 .workContainer .workContent .row .workItemts {
+  -webkit-transition: 1s;
   transition: 1s;
   padding: 0;
   position: relative;
@@ -215,7 +266,8 @@ body, .container-fluid {
   position: relative;
 }
 .workContainer .workContent .row .workItemts .workImgContainer .workImg:hover img {
-  transform: scale(1.2, 1.2);
+  -webkit-transform: scale(1.2, 1.2);
+          transform: scale(1.2, 1.2);
 }
 .workContainer .workContent .row .workItemts .workImgContainer .workImg:hover .workBlack {
   opacity: 0.75;
@@ -227,6 +279,7 @@ body, .container-fluid {
 .workContainer .workContent .row .workItemts .workImgContainer .workImg img {
   width: 100%;
   height: 100%;
+  -webkit-transition: 0.3s;
   transition: 0.3s;
 }
 .workContainer .workContent .row .workItemts .workImgContainer .workImg .workBlack {
@@ -235,15 +288,18 @@ body, .container-fluid {
   left: 0;
   width: 100%;
   height: 100%;
+  -webkit-transition: 0.3s;
   transition: 0.3s;
 }
 .workContainer .workContent .row .workItemts .workImgContainer .workImg .workBlack .blackText {
+  -webkit-transition: 0.3s;
   transition: 0.3s;
   opacity: 0;
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-40%, -50%);
+  -webkit-transform: translate(-40%, -50%);
+          transform: translate(-40%, -50%);
   font-size: 24px;
   text-decoration: none;
   color: #fff;
@@ -275,14 +331,22 @@ body, .container-fluid {
   background-color: rgba(0, 0, 0, 0.7);
   width: 100%;
   height: 50vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 .footerContainer .footerContent .footerTextContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin-right: auto;
   margin-left: auto;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   text-align: center;
 }
 .footerContainer .footerContent .footerTextContent .contentText h1 {
@@ -296,9 +360,15 @@ body, .container-fluid {
 .Copyright {
   height: 60px;
   text-align: center;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 .Copyright .CopyrightBox span {
